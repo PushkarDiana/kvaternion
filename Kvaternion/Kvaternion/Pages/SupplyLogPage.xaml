@@ -1,0 +1,108 @@
+﻿<Page x:Class="Kvaternion.Pages.SupplyLogPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Kvaternion.Pages"
+      mc:Ignorable="d" 
+     Title="Поступления и выдачи" Background="Transparent">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" Background="White" CornerRadius="5" Padding="5" Margin="5">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center" Margin="5">
+                    <TextBlock Text="📋 Журнал" FontSize="15" FontWeight="Bold" Foreground="#444" VerticalAlignment="Center" Margin="5"/>
+                    <Border Background="#F2F2F2" CornerRadius="3" Width="210" Height="30" VerticalAlignment="Center" Margin="10,0">
+                        <TextBox x:Name="txtSearch" Text="Поиск по названию..." Foreground="Gray" Background="Transparent" BorderThickness="0" FontSize="13" VerticalAlignment="Center" VerticalContentAlignment="Center" Padding="5,0,5,2" TextChanged="txtSearch_TextChanged" GotFocus="txtSearch_GotFocus" LostFocus="txtSearch_LostFocus"/>
+                    </Border>
+                    <ComboBox x:Name="cbWarehouses" Width="180" Height="30" Margin="10" VerticalContentAlignment="Center" DisplayMemberPath="Name" SelectionChanged="cbWarehouses_SelectionChanged" />
+                </StackPanel>
+
+                <StackPanel Grid.Column="2" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="5">
+                    <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" Margin="5"/>
+                    <DatePicker x:Name="dpLogs" Width="150" Height="30" Margin="5" VerticalContentAlignment="Center" SelectedDateChanged="dpLogs_SelectedDateChanged"/>
+                    <Button Content="Сбросить" Click="btnReset_Click" Background="#444" Foreground="White" Width="80" Height="30" Margin="5" VerticalContentAlignment="Center"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <DataGrid x:Name="dgLogs" Grid.Row="1" Margin="5" AutoGenerateColumns="False" IsReadOnly="True" ItemsSource="{Binding}">
+            <DataGrid.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Удалить запись" Click="btnDelete_Click">
+                        <MenuItem.Icon>
+                            <TextBlock Text="&#xE74D;" FontFamily="Segoe MDL2 Assets" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="Изменить запись" Click="btnEdit_Click">
+                        <MenuItem.Icon>
+                            <TextBlock Text="✎" FontWeight="Bold" Foreground="Orange"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Дата" Binding="{Binding Date, StringFormat=\{0:dd.MM.yyyy\}}" Width="Auto"/>
+                <DataGridTextColumn Header="Наименование" Binding="{Binding ProductName}" Width="*"/>
+                <DataGridTextColumn Header="Тип" Binding="{Binding Type}" Width="100">
+                    <DataGridTextColumn.ElementStyle>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="FontWeight" Value="SemiBold"/>
+                            <Setter Property="Margin" Value="5,0,5,0"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding Type}" Value="Приход">
+                                    <Setter Property="Foreground" Value="Green"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding Type}" Value="Расход">
+                                    <Setter Property="Foreground" Value="Red"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </DataGridTextColumn.ElementStyle>
+                </DataGridTextColumn>
+
+                <DataGridTextColumn Header="Кол-во" Binding="{Binding Quantity, StringFormat={}{0:0.####}}" Width="100"/>
+                <DataGridTextColumn Header="Ед. изм." Binding="{Binding Unit}" Width="70"/>
+                <DataGridTextColumn Header="Склад/Объект" Binding="{Binding WarehouseName}" Width="150"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Border Grid.Row="2" Background="White" BorderBrush="#DDD" BorderThickness="0,1,0,0" Padding="15,10" Margin="10">
+            <Grid>
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                    <TextBlock Text="Всего записей: " Foreground="Gray" FontSize="14"/>
+                    <TextBlock x:Name="lblTotalLogs" Text="0" FontWeight="Bold" FontSize="14" Margin="5,0,0,0"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Content="+ Добавить операцию" Click="btnAddManualLog_Click" Background="#FF8C00" Foreground="White"  Width="166" Height="34" FontWeight="SemiBold" FontSize="13">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="4"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                    <Button Content="📊 Выгрузить отчет в Excel" Click="btnExport_Click"  Background="#217346" Foreground="White" Width="200" Height="34" FontWeight="SemiBold" Margin="14,0,0,0">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="4"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                </StackPanel>
+                
+            </Grid>
+        </Border>
+    </Grid>
+</Page>

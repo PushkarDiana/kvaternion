@@ -1,0 +1,49 @@
+﻿<Window x:Class="Kvaternion.Pages.AddSupplyLogPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kvaternion.Pages"
+        mc:Ignorable="d"
+        Title="Добавление записи" Height="550" Width="400" 
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+
+    <Grid Margin="20">
+        <StackPanel>
+            <TextBlock x:Name="tbHeader" Text="Операция" FontSize="20" FontWeight="Bold" Margin="10"/>
+            <TextBlock Text="Тип операции:" Margin="5" Foreground="Gray"/>
+            <ComboBox x:Name="cbType" Margin="5" SelectedIndex="0" Height="30">
+                <ComboBoxItem Content="Приход"/>
+                <ComboBoxItem Content="Расход"/>
+            </ComboBox>
+            <TextBlock Text="Товар:" Margin="5" Foreground="Gray"/>
+            <ComboBox x:Name="cbProduct" Margin="5" Height="30" DisplayMemberPath="Name" SelectedValuePath="Id"/>
+            <TextBlock Text="Склад / Объект:" Margin="5" Foreground="Gray"/>
+            <ComboBox x:Name="cbWarehouse" Margin="5" Height="30" DisplayMemberPath="Name" SelectedValuePath="Id"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0">
+                    <TextBlock Text="Количество:" Margin="5" Foreground="Gray"/>
+                    <TextBox x:Name="txtQuantity" Margin="5" Padding="5" Height="30"/>
+                    <TextBlock x:Name="lblUnit" Text="ед." Margin="10,0,0,0" VerticalAlignment="Center" Foreground="Gray"/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Дата:" Margin="5" Foreground="Gray"/>
+                    <DatePicker x:Name="dpDate" Height="30" Width="150" />
+                </StackPanel>
+            </Grid>
+            <TextBlock Text="Комментарий:" Margin="5" Foreground="Gray"/>
+            <TextBox x:Name="txtComment" Margin="5" Height="60" TextWrapping="Wrap" AcceptsReturn="True" Padding="5"/>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="10">
+                <Button Content="Отмена" Width="90" Height="30" Margin="5" Click="btnCancel_Click" Background="#F5F5F5"/>
+                <Button Content="Сохранить" Width="110" Height="30" Margin="5" Background="#FF8C00" Foreground="White" FontWeight="Bold" Click="btnSave_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

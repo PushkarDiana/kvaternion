@@ -1,0 +1,26 @@
+﻿<Window x:Class="Kvaternion.Pages.EditStrockWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kvaternion.Pages"
+        mc:Ignorable="d"
+        Title="Правка остатка" Height="280" Width="350" 
+        WindowStartupLocation="CenterOwner" ResizeMode="NoResize">
+    <StackPanel Margin="10">
+        <TextBlock x:Name="txtProductName" Style="{StaticResource HeaderTitle}" FontSize="16" TextWrapping="Wrap" Margin="5"/>
+        <StackPanel Margin="5">
+            <TextBlock Text="СКЛАД / ОБЪЕКТ" Style="{StaticResource FieldLabel}" FontSize="10"/>
+            <ComboBox x:Name="cbWarehouse" Height="28" VerticalContentAlignment="Center" 
+              DisplayMemberPath="Name" SelectedValuePath="Id" Margin="0,2,0,0"/>
+        </StackPanel>
+        <StackPanel Margin="5">
+            <TextBlock Text="КОЛИЧЕСТВО НА СКЛАДЕ" Style="{StaticResource FieldLabel}" FontSize="10"/>
+            <TextBox x:Name="txtQuantity" Height="28" VerticalContentAlignment="Center" Padding="5"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="5">
+            <Button Content="Сохранить" Style="{StaticResource OrangeButton}" Width="100" Height="32" Margin="5" Click="btnSave_Click"/>
+            <Button Content="Отмена" Width="80" Height="32" Margin="5" Background="Transparent" BorderBrush="{StaticResource DarkGray}" BorderThickness="1" Click="btnCancel_Click"/>
+        </StackPanel>
+    </StackPanel>
+</Window>

@@ -1,0 +1,573 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Kvaternion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\pages\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\pages\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\pages\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\pages\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\helpers\\securityhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\helpers\\securityhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\helpers\\phoneconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\helpers\\phoneconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\pages\\editstrockwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\pages\\editstrockwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\pages\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\pages\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\pages\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\pages\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\pages\\addwarehousewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\pages\\addwarehousewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\pages\\adduserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\pages\\adduserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\pages\\addsupplylogpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\pages\\addsupplylogpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\pages\\addproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\pages\\addproductwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\pages\\aboutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\pages\\aboutpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\pages\\supplylogpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\pages\\supplylogpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\pages\\supplylogpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\pages\\supplylogpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\pages\\storagepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\pages\\storagepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\pages\\storagepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\pages\\storagepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\pages\\reportspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\pages\\reportspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\pages\\reportspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\pages\\reportspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\pages\\userspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\pages\\userspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\pages\\warehousespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\pages\\warehousespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\pages\\addwarehousewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\pages\\addwarehousewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\pages\\adduserwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\pages\\adduserwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\pages\\warehousespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\pages\\warehousespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\pages\\editstrockwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\pages\\editstrockwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\pages\\addsupplylogpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\pages\\addsupplylogpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\pages\\userspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\pages\\userspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|c:\\users\\admin\\desktop\\kvaternion\\kvaternion\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1475AA24-684F-0E62-0BFD-D02D55F1DD38}|Kvaternion\\Kvaternion.csproj|solutionrelative:kvaternion\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DashboardPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\DashboardPage.xaml.cs",
+              "RelativeDocumentMoniker": "Kvaternion\\Pages\\DashboardPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\DashboardPage.xaml.cs",
+              "RelativeToolTip": "Kvaternion\\Pages\\DashboardPage.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwBUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T17:36:05.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditStrockWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\EditStrockWindow.xaml",
+              "RelativeDocumentMoniker": "Kvaternion\\Pages\\EditStrockWindow.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\EditStrockWindow.xaml",
+              "RelativeToolTip": "Kvaternion\\Pages\\EditStrockWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-30T17:17:59.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "Kvaternion\\Pages\\ProfilePage.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\ProfilePage.xaml",
+              "RelativeToolTip": "Kvaternion\\Pages\\ProfilePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-30T13:10:52.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SecurityHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Helpers\\SecurityHelper.cs",
+              "RelativeDocumentMoniker": "Kvaternion\\Helpers\\SecurityHelper.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Helpers\\SecurityHelper.cs",
+              "RelativeToolTip": "Kvaternion\\Helpers\\SecurityHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T14:44:59.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PhoneConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Helpers\\PhoneConverter.cs",
+              "RelativeDocumentMoniker": "Kvaternion\\Helpers\\PhoneConverter.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Helpers\\PhoneConverter.cs",
+              "RelativeToolTip": "Kvaternion\\Helpers\\PhoneConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T15:12:24.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProfilePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\ProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "Kvaternion\\Pages\\ProfilePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\ProfilePage.xaml.cs",
+              "RelativeToolTip": "Kvaternion\\Pages\\ProfilePage.xaml.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAADwv4QAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T13:11:00.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DashboardPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\DashboardPage.xaml",
+              "RelativeDocumentMoniker": "Kvaternion\\Pages\\DashboardPage.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\DashboardPage.xaml",
+              "RelativeToolTip": "Kvaternion\\Pages\\DashboardPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-30T15:10:45.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddWarehouseWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\AddWarehouseWindow.xaml",
+              "RelativeDocumentMoniker": "Kvaternion\\Pages\\AddWarehouseWindow.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\AddWarehouseWindow.xaml",
+              "RelativeToolTip": "Kvaternion\\Pages\\AddWarehouseWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-30T17:04:01.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddUserWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\AddUserWindow.xaml",
+              "RelativeDocumentMoniker": "Kvaternion\\Pages\\AddUserWindow.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\AddUserWindow.xaml",
+              "RelativeToolTip": "Kvaternion\\Pages\\AddUserWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-30T14:59:29.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddSupplyLogPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\AddSupplyLogPage.xaml",
+              "RelativeDocumentMoniker": "Kvaternion\\Pages\\AddSupplyLogPage.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\AddSupplyLogPage.xaml",
+              "RelativeToolTip": "Kvaternion\\Pages\\AddSupplyLogPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-30T12:57:23.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddProductWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\AddProductWindow.xaml",
+              "RelativeDocumentMoniker": "Kvaternion\\Pages\\AddProductWindow.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\AddProductWindow.xaml",
+              "RelativeToolTip": "Kvaternion\\Pages\\AddProductWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-30T14:20:51.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AboutPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\AboutPage.xaml",
+              "RelativeDocumentMoniker": "Kvaternion\\Pages\\AboutPage.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\AboutPage.xaml",
+              "RelativeToolTip": "Kvaternion\\Pages\\AboutPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-30T17:03:53.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SupplyLogPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\SupplyLogPage.xaml.cs",
+              "RelativeDocumentMoniker": "Kvaternion\\Pages\\SupplyLogPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\SupplyLogPage.xaml.cs",
+              "RelativeToolTip": "Kvaternion\\Pages\\SupplyLogPage.xaml.cs",
+              "ViewState": "AgIAAO4AAAAAAAAAAAAiwB0BAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T12:47:41.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SupplyLogPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\SupplyLogPage.xaml",
+              "RelativeDocumentMoniker": "Kvaternion\\Pages\\SupplyLogPage.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\SupplyLogPage.xaml",
+              "RelativeToolTip": "Kvaternion\\Pages\\SupplyLogPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-30T12:40:08.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StoragePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\StoragePage.xaml",
+              "RelativeDocumentMoniker": "Kvaternion\\Pages\\StoragePage.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\StoragePage.xaml",
+              "RelativeToolTip": "Kvaternion\\Pages\\StoragePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-30T14:30:02.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StoragePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\StoragePage.xaml.cs",
+              "RelativeDocumentMoniker": "Kvaternion\\Pages\\StoragePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\StoragePage.xaml.cs",
+              "RelativeToolTip": "Kvaternion\\Pages\\StoragePage.xaml.cs",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAIwA0BAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T16:55:32.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ReportsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\ReportsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Kvaternion\\Pages\\ReportsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\ReportsPage.xaml.cs",
+              "RelativeToolTip": "Kvaternion\\Pages\\ReportsPage.xaml.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAswHQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T19:05:44.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ReportsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\ReportsPage.xaml",
+              "RelativeDocumentMoniker": "Kvaternion\\Pages\\ReportsPage.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\ReportsPage.xaml",
+              "RelativeToolTip": "Kvaternion\\Pages\\ReportsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-30T17:04:28.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Kvaternion\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\MainWindow.xaml",
+              "RelativeToolTip": "Kvaternion\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-30T13:33:53.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "Kvaternion\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\LoginWindow.xaml",
+              "RelativeToolTip": "Kvaternion\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-30T12:33:21.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UsersPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\UsersPage.xaml",
+              "RelativeDocumentMoniker": "Kvaternion\\Pages\\UsersPage.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\UsersPage.xaml",
+              "RelativeToolTip": "Kvaternion\\Pages\\UsersPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-30T14:31:37.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Kvaternion\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Kvaternion\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAM8AAAAAAAAAAAA4wKcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T13:33:58.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "WarehousesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\WarehousesPage.xaml",
+              "RelativeDocumentMoniker": "Kvaternion\\Pages\\WarehousesPage.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\WarehousesPage.xaml",
+              "RelativeToolTip": "Kvaternion\\Pages\\WarehousesPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-30T17:04:31.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AddWarehouseWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\AddWarehouseWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Kvaternion\\Pages\\AddWarehouseWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\AddWarehouseWindow.xaml.cs",
+              "RelativeToolTip": "Kvaternion\\Pages\\AddWarehouseWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T17:05:05.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\App.xaml",
+              "RelativeDocumentMoniker": "Kvaternion\\App.xaml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\App.xaml",
+              "RelativeToolTip": "Kvaternion\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-30T14:15:53.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AddUserWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\AddUserWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Kvaternion\\Pages\\AddUserWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\AddUserWindow.xaml.cs",
+              "RelativeToolTip": "Kvaternion\\Pages\\AddUserWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMMAAACxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T14:33:22.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Kvaternion\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "Kvaternion\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAgwHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T03:45:34.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "WarehousesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\WarehousesPage.xaml.cs",
+              "RelativeDocumentMoniker": "Kvaternion\\Pages\\WarehousesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\WarehousesPage.xaml.cs",
+              "RelativeToolTip": "Kvaternion\\Pages\\WarehousesPage.xaml.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAowGsAAACOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T17:30:54.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EditStrockWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\EditStrockWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Kvaternion\\Pages\\EditStrockWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\EditStrockWindow.xaml.cs",
+              "RelativeToolTip": "Kvaternion\\Pages\\EditStrockWindow.xaml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T17:18:27.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AddSupplyLogPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\AddSupplyLogPage.xaml.cs",
+              "RelativeDocumentMoniker": "Kvaternion\\Pages\\AddSupplyLogPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\AddSupplyLogPage.xaml.cs",
+              "RelativeToolTip": "Kvaternion\\Pages\\AddSupplyLogPage.xaml.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAwIAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T12:57:50.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UsersPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\UsersPage.xaml.cs",
+              "RelativeDocumentMoniker": "Kvaternion\\Pages\\UsersPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Pages\\UsersPage.xaml.cs",
+              "RelativeToolTip": "Kvaternion\\Pages\\UsersPage.xaml.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAADwv4cAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T14:31:44.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Kvaternion\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\App.xaml.cs",
+              "RelativeToolTip": "Kvaternion\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T14:15:56.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Kvaternion\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Kvaternion\\Kvaternion\\Models\\User.cs",
+              "RelativeToolTip": "Kvaternion\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T13:22:57.843Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
